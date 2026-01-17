@@ -48,4 +48,4 @@ Reduce manual workload and improve response time
 
 📝 Note
 
-This project is a concept-level prototype built to demonstrate ideas and effort, not a fully deployed system.
+This project is a concept level prototype built to demonstrate ideas and effort, not a fully deployed system.

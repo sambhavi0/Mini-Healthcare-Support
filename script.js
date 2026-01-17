@@ -8,7 +8,6 @@ function sendMessage() {
   const userText = input.value.trim();
   if (userText === "") return;
 
-  // User message
   const userDiv = document.createElement("div");
   userDiv.className = "user-msg";
   userDiv.innerText = userText;
@@ -17,7 +16,6 @@ function sendMessage() {
   input.value = "";
   chatbox.scrollTop = chatbox.scrollHeight;
 
-  // Bot reply after delay
   setTimeout(() => {
     const reply = getBotReply(userText.toLowerCase());
     typeBotMessage(reply);
@@ -51,3 +49,4 @@ function typeBotMessage(text) {
     if (i >= text.length) clearInterval(interval);
   }, 40);
 }
+

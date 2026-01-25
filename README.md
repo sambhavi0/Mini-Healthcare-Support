@@ -46,6 +46,4 @@ Automate responses to frequently asked questions
 
 Reduce manual workload and improve response time
 
-📝 Note
-
-This project is a concept level prototype built to demonstrate ideas and effort, not a fully deployed system.
+MVP:https://sambhavi0.github.io/Mini-Healthcare-Support/
